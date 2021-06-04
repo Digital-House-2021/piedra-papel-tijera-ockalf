@@ -1,10 +1,9 @@
-
 function eligeUsuario() {
-  let eleccionUsuario;
-  while (eleccionUsuario > 3 || eleccionUsuario < 1 || !eleccionUsuario) {
-    eleccionUsuario = parseInt(window.prompt('Piedra(1), papel(2) o tijera(3)?'));
+  let noMeGustaEseNombre;
+  while (noMeGustaEseNombre > 3 || noMeGustaEseNombre < 1 || !noMeGustaEseNombre) {
+    noMeGustaEseNombre = parseInt(window.prompt('Piedra(1), papel(2) o tijera(3)?'));
   }
-  return eleccionUsuario;
+  return noMeGustaEseNombre;
 }
 
 function eligePc() {
